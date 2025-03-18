@@ -1,7 +1,4 @@
-# FoundationModel
-A foundation model developed for the Netherlands using the Pleiades and Superview NEO satellites for remote sensing data.
-
-# README: Foundation Model for Remote Sensing
+# README: Remote Sensing Foundation Model for the Netherlands
 
 ## Overview
 
@@ -19,7 +16,7 @@ The `main_pretrain.py` can be adapted to load your specific data source. Specify
 
 ### 2. Fine-tuning for a specific downstream task:
 
-A pretrained model can be used for fine-tuning using the main.py file under downstream_task. Setting up the configs for the specific task and specifying the dataloader enables to finetune on a specific task.
+A pretrained model can be used for fine-tuning using the `downstream_task/main.py` file. Setting up the configuration files for the specific task and specifying the dataloader, decoder head, and validation metrics enables finetuning the model to a specific task.
 
 ## Performance Comparison
 
@@ -32,4 +29,4 @@ A pretrained model can be used for fine-tuning using the main.py file under down
 
 If you use this code in your research, please cite this repository. 
 The corresponding paper will be published soon and the repository will be updated accordingly.
-
+For contact, visit www.paulvermeeren.nl.
